@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title> Images </title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<style>
+
+		body {
+			background-color: lightgrey;
+		}
+
+		ul.menu{
+			background-color: grey;
+			padding: 5px;
+			overflow: visible;
+        		display: flex;
+        		justify-content: center;
+		}
+
+		ul.menu li{
+			list-style: none;
+			display: inline;
+			font-size: 20px;
+			margin-left: 110px;
+			margin-right: 100px;
+			overflow: hidden;
+			float: left;
+       		 	padding-left: 5px;
+        		padding-right: 20px;
+		}
+
+		ul.menu li a{
+			text-decoration: none;
+			color: white;
+
+			display: block;
+			text-align: center;
+        		padding: 5px 5px;	
+		}
+		
+		li a:hover {
+        		background-color: grey;
+      		}
+
+		div.main{
+			max-width: 2000px;
+			margin: auto;
+			background: grey;
+			overflow: auto;
+		}
+
+		div.gallery{
+			margin: 5px;
+			border: 1px solid white;
+			float: left;
+			width: 390px;
+			margin-left:250px;
+		}
+
+		div.gallery img{
+			width: 100%;
+			height: auto;
+		} 
+
+		div.caption{
+			padding: 15px;
+			text-align: center;
+			color: white;
+		}
+	</style>
+</head>
+
+<body>
+
+	<ul class="menu">
+		<li class="active"><a href="Home.html"> Home </a></li>
+		<li><a href="Summary.html"> Summary </a></li>
+		<li><a href="Variants.html"> Variants </a></li>
+		<li><a href="Images.html"> Images </a></li>
+		<li><a href="Colour.html"> Colour </a></li>
+	</ul>
+
+	<div class="main">
+
+		<div class="gallery">
+			<img src="https://images.indianexpress.com/2021/03/lamborghini-urus-1200.jpg">
+			<div class="caption"> Lamborghini Urus </div>
+		</div>
+
+		<div class="gallery">
+			<img src="https://besthqwallpapers.com/Uploads/19-6-2018/56156/thumb2-lamborghini-urus-2018-exterior-side-view-luxury-sport-suv.jpg">
+			<div class="caption"> Side View </div>
+		</div>
+
+		<div class="gallery">
+			<img src="https://i.pinimg.com/originals/bc/77/1b/bc771b371c2e0d6c9216c64b1b3028e3.jpg">
+			<div class="caption"> Front View </div>
+		</div>
+
+		<div class="gallery">
+			<img src="http://www.carmagram.com/wp-content/uploads/2017/12/2018-Lamborghini-Urus-SUV-Yellow-Exterior-Rear-View.jpg">
+			<div class="caption"> Rear View </div>
+		</div>
+
+		<div class="gallery">
+			<img src="https://live.staticflickr.com/4654/38767442385_0ffe282cba_b.jpg">
+			<div class="caption"> Engine </div>
+		</div>
+
+		<div class="gallery">
+			<img src="https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/urus/connected_car/connected_urus_m.jpg">
+			<div class="caption"> Interior </div>
+		</div>
+
+		<div class="gallery">
+			<img src="https://pictures.topspeed.com/IMG/crop/202009/lamborghini-urus-gra_800x0w.jpg">
+			<div class="caption"> Pearl Capsule Edition </div>
+		</div>
+
+		<div class="gallery">
+			<img src="https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/gateway_urus/graphite/2021/02_24_restyle/urus_graphite_over_01_m.jpg">
+			<div class="caption"> Granite Capsule Edition </div>
+		</div>
+
+	</div>
+	
+</body>
+
+</html>

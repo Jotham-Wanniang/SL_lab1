@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title> Variants </title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<style>
+
+		body {
+			background-color: lightgrey;
+		}
+
+		ul.menu{
+			background-color: grey;
+			padding: 5px;
+			overflow: visible;
+        		display: flex;
+        		justify-content: center;
+		}
+
+		ul.menu li{
+			list-style: none;
+			display: inline;
+			font-size: 20px;
+			margin-left: 110px;
+			margin-right: 100px;
+			overflow: hidden;
+			float: left;
+       		 	padding-left: 5px;
+        		padding-right: 20px;
+		}
+
+		ul.menu li a{
+			text-decoration: none;
+			color: white;
+
+			display: block;
+			text-align: center;
+        		padding: 5px 5px;	
+		}
+		
+		li a:hover {
+        		background-color: grey;
+      		}
+
+		div.urus{
+			background-image:
+    			linear-gradient(to bottom, rgba(192,192,192,0.52), rgba(169,169,169,0.73)),
+   	 		url('https://images.indianexpress.com/2021/03/lamborghini-urus-1200.jpg');
+    			width: 97%;
+    			height: 500px;
+    			background-size: contain;
+    			color: white;
+    			padding: 20px;
+			margin-left: 3px;
+			background-repeat: no-repeat;
+			background-position: right;
+		}
+
+		table.variants{
+			color: black;
+			border-spacing: 10px;
+			margin-left: 10px;
+		}
+	</style>
+</head>
+
+<body>
+
+	<ul class="menu">
+		<li class="active"><a href="Home.html"> Home </a></li>
+		<li><a href="Summary.html"> Summary </a></li>
+		<li><a href="Variants.html"> Variants </a></li>
+		<li><a href="Images.html"> Images </a></li>
+		<li><a href="Colour.html"> Colour </a></li>
+	</ul>
+
+	<div class="urus">
+		<table class="variants">
+  			<tr>
+    				<th> Variants </th>
+    				<th> Ex-showroom Price </th>
+  			</tr>
+  			<tr>
+    				<td> Urus Twin-Turbo V8 <br> 3996 cc, Petrol, Automatic (Dual Clutch) </td>
+    				<td> ₹3.10 Crore </td>
+  			</tr>
+			<tr>
+    				<td> Urus Twin-Turbo V8: Pearl Capsule <br> 3996 cc, Petrol, Automatic (Dual Clutch) </td>
+    				<td> ₹3.43 Crore </td>
+  			</tr>
+		</table>
+	</div>
+
+</body>
+
+</html>
